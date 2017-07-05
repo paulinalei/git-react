@@ -1,0 +1,13 @@
+.nav li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 15px;
+}
+
+.nav li a {
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  color: gray;
+}
