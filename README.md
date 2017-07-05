@@ -1,3 +1,3 @@
 # git-react
 
-Using GitHub API with React.
+Using GitHub API with React and Node.
