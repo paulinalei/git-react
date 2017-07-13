@@ -6,7 +6,7 @@ var Route = ReactRouter.Route;
 var Switch = ReactRouter.Switch;
 var Nav = require('./Nav');
 var Home = require('./Home');
-var UserProfile = require('./UserProfile');
+var MostStarred = require('./MostStarred');
 
 class App extends React.Component {
   render() {
@@ -16,7 +16,7 @@ class App extends React.Component {
           <Nav />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/userprofile" component={UserProfile} />
+            <Route path="/moststarred" component={MostStarred} />
             <Route render={function () {
               return <p>Not Found</p>
             }} />

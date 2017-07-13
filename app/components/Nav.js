@@ -8,7 +8,7 @@ function Nav () {
         <NavLink exact activeClassName="active" to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink activeClassName="active" to="/userprofile">User Profile</NavLink>
+        <NavLink activeClassName="active" to="/moststarred">MostStarred</NavLink>
       </li>
       <li>
         <NavLink activeClassName="active" to="/pagetwo">Page Two</NavLink>
